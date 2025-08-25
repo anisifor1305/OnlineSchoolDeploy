@@ -4,7 +4,8 @@
     margin-top: 4%;
     margin-left: 2%;
     gap:5%;
-    background-color: rgb(229, 255, 192);
+    /* background-color: rgb(229, 255, 192); */
+    background-color: rgb(192,236,255);
     /* background-image: url("https://bogatyr.club/uploads/posts/2023-03/34938/1679446237_bogatyr-club-p-tsianovii-tsvet-foni-vkontakte-32.jpg"); */
     width: 96%;
     height: 730px;
@@ -73,7 +74,7 @@
 }
 
 .light {
-    transform:rotate(-30deg) ;
+    transform:rotate(-15deg) ;
     z-index: 2;
 }
 
@@ -92,8 +93,9 @@
     margin-left: 20vw;
 }
 .gear {
-    z-index: 0;
-    transform:rotate(45deg) ;
+    z-index: 3;
+    /* z-index: 0; */
+    transform:rotate(20deg) ;
 }
 .geardiv{
     margin-left: -2vw;
@@ -112,7 +114,8 @@
 }
 
 .button:hover {
-    background-color: rgb(229, 255, 192);
+    /* background-color: rgb(229, 255, 192); */
+    background-color: rgb(192,236,255);
     color: black;
     border: 0.5vh;
     border-style: solid;

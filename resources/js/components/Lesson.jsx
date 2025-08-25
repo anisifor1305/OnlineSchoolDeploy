@@ -4,7 +4,8 @@ function Lesson(props) {
     console.log(props);
     const prevStep = parseInt(props.videoStep)-1;
     const nextStep = parseInt(props.videoStep)+1;
-    const videoNames = JSON.parse(props.videoNames);
+    const videoNames = JSON.parse(props.videoNames)
+
     return ( <>
         <div>
         <div className="rowadaptiv_с">

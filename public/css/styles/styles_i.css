@@ -224,12 +224,13 @@
     border-style: solid;
     border-color: transparent;
     border-width: 10px;
-    background-color: rgb(229, 255, 192);
+    /* background-color: rgb(229, 255, 192); */
+    background-color: rgb(192,236,255);
     width: 96vw;
     height:auto;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .cardblock:translation
@@ -283,7 +284,6 @@
     height: auto;
     margin-left: 4vw;
     margin-right: 4vw;
-    margin-top: 10vh;
 }
 .imgplace{
     width: 40%;
@@ -311,7 +311,8 @@
     border-color: transparent;
     background-color: black;
     color: azure;
-    background-color: rgb(229, 255, 192);
+    background-color: rgb(192,236,255);
+    /* background-color: rgb(229, 255, 192); */
     color: black;
     border: 0.5vh;
     border-style: solid;

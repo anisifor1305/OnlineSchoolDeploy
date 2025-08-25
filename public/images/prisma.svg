@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="67.660042mm"
+   height="41.643036mm"
+   viewBox="0 0 67.660042 41.643036"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="prisma.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.768771"
+     inkscape:cx="122.61758"
+     inkscape:cy="73.137142"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g293" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#8d46f6;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#8d46f6;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-89.164583,-131.7625)">
+    <g
+       id="g294"
+       transform="matrix(0.26458333,0,0,0.26458333,71.760027,115.69938)">
+      <polygon
+         style="fill:#f4220c"
+         points="147.192,129.672 147.192,135.477 219.381,136.98 312.999,138.52 321.504,121.684 216.43,121.474 "
+         id="polygon285" />
+      <polygon
+         style="fill:#f76122"
+         points="146.599,131.038 146.599,137.029 222.297,142.27 307.777,148.855 315.42,133.726 219.373,126.464 "
+         id="polygon286" />
+      <polygon
+         style="fill:#efcb1d"
+         points="145.958,132.429 145.958,138.139 225.193,147.533 302.63,159.046 310.024,144.408 222.507,131.777 "
+         id="polygon287" />
+      <polygon
+         style="fill:#67b001"
+         points="145.273,133.84 145.958,138.139 228.06,152.77 297.561,169.077 304.731,154.885 225.54,136.919 "
+         id="polygon288" />
+      <polygon
+         style="fill:#8ad1f1"
+         points="144.554,135.265 145.096,138.502 230.885,157.976 292.576,178.947 299.511,165.221 228.718,142.304 "
+         id="polygon289" />
+      <polygon
+         style="fill:#6d3eb7"
+         points="143.012,138.139 142.693,140.23 240.925,163 284.057,195.811 289.344,185.346 235.766,154.254 "
+         id="polygon290" />
+      <polygon
+         style="fill:#2897dc"
+         points="143.799,136.699 143.297,140.952 236.42,155.365 288.985,186.056 294.451,175.235 231.158,146.998 "
+         id="polygon291" />
+      <g
+         id="g292">
+        <polygon
+           style="fill:#e8e8f9"
+           points="66.988,162.442 65.781,159.772 147.192,129.672 144.554,142.304 "
+           id="polygon292" />
+      </g>
+      <g
+         id="g293">
+        <polygon
+           style="opacity:0.3;fill:#c7e2ff"
+           points="265.025,213.221 102.433,213.221 183.729,70.569 "
+           id="polygon293" />
+        <path
+           style="fill:#8cedf6;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-width:1.37952758;stroke-dasharray:none"
+           d="m 183.729,80.427 72.896,127.912 H 110.833 L 183.729,80.427 m 0,-19.716 -89.696,157.391 h 179.392 z"
+           id="path293" />
+      </g>
+    </g>
+  </g>
+</svg>
