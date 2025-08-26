@@ -3,6 +3,7 @@
     justify-content: center;
     margin-top: 4%;
     margin-left: 2%;
+    margin-right: 2%;
     gap:5%;
     /* background-color: rgb(229, 255, 192); */
     background-color: rgb(192,236,255);
@@ -19,19 +20,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
 }
 
 .photoplace{
     width: 40%;
-    height: auto;
+    height: 100%;
+    padding-top: 182.5px;
+    /* height: auto; */ 
 }
 .banner-text-main {
     font-family: "Oswald", sans-serif;
-    font-size: 8vh;
+    font-size: 2.5rem;
     color: rgb(0, 0, 0);
     font-weight: 400;
-    text-align: right;
+    text-align: left;
     max-width: 97vh;
     
 }
@@ -46,8 +49,8 @@
 
 .image-iliya {
     position: absolute;
-    width: 25vw;
-    height: 25vw;
+    width: 25%;
+    /* height: 25%; */
     border-radius: 40px;
     border-style: solid;
     border-color: transparent;
@@ -57,8 +60,10 @@
 
 .image {
     position: absolute;
-    width: 10%;
-    height: 20%;
+    width: 5rem;
+    max-height: 7rem;
+    /* width: 10%;
+    height: 20%; */
     /* left: 45vh;
     bottom: 8vh; */
     /* z-index: 2; */
@@ -83,7 +88,6 @@
 }
 
 .ball {
-    width: 8vw;
     height: auto;
     z-index: 3;
     transform:rotate(45deg) ;
@@ -121,33 +125,43 @@
     border-style: solid;
 }
 
-@media (max-width: 427px) {
+@media (max-width: 800px) {
     .style1 {
+        gap: 0;
+        justify-content: start;
+        align-items: center;
         flex-direction: column;
-        height: 125vh;
+        height: auto;
+    }
+    .photoplace{
+        padding-top: 0;
+        height: 60vh;
+        width: 50vh;
     }
     .image-iliya {
-        width: 81%;
-        height: auto;
-        margin-left: -22%;
-        margin-top: -5%;
+        position: relative;
+        height: 50vh;
+        width: 50vh;
+        width: auto;
+        /* margin-left: -22%;
+        margin-top: -5%; */
     }
     .banner-text-main {
-        margin-top: 50vh;
+        margin-top: 0;
         margin-bottom: 5vh;
         width: 60vh;
-        font-size: 5vh;
+        font-size: 2rem;
         text-align: center;
     }
      .lit-banner-text {
        width: 60vh;
     } 
     .image {
-        width: 35vw;
+        width: 5rem;
         height: auto;
     }
     .ball {
-        width: 21vw;
+        width: 5rem;
         height: auto;
     }
     .balldiv {
@@ -156,7 +170,7 @@
         margin-left: 40vw;
     }
     .gear {
-        width: 28vw;
+        width: 5rem;
         height: auto;
     }
     .geardiv {
@@ -181,8 +195,11 @@
         margin-left: 31vw;
     }
     .button {
+        margin-top: 0;
         width: 80vw;
         font-size: 10vw;
+        margin-bottom: 20vw;
+        margin-top: 10vw;
     }
 }
 

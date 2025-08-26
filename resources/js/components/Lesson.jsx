@@ -1,10 +1,11 @@
 import Videos from "./Videos";
 
 function Lesson(props) {
-    console.log(props);
     const prevStep = parseInt(props.videoStep)-1;
     const nextStep = parseInt(props.videoStep)+1;
     const videoNames = JSON.parse(props.videoNames)
+    const videoIds = JSON.parse(props.videoIds);
+    console.log(videoIds);
 
     return ( <>
         <div>
@@ -31,7 +32,7 @@ function Lesson(props) {
                 </div>
                 <div className="content_c">
                     <div className="contentname_c">Содержание программы</div>
-                    <Videos videoNames={videoNames} courseId={props.courseId}/>
+                    <Videos videoNames={videoNames} courseId={props.courseId} videoIds={videoIds}/>
                 </div>
             </div>
             <div className="addition_c">

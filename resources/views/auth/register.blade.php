@@ -89,6 +89,7 @@
                                 </button>
                             </div>
                         </div>
+                        <div class="reglink_cont"><a href="{{ route('login') }}" class="registerOrLogin">{{ __('Уже есть профиль? Нажмите для входа') }}</a></div>
                     </form>
                 </div>
             </div>

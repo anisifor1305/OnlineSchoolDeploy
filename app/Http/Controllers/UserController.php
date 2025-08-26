@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use App\Models\Advert;
 use App\Models\Course;
-use App\Models\FLPub;
 use App\Models\User;
+use App\Models\Video;
 use Exception;
 use Illuminate\Http\Request;
 

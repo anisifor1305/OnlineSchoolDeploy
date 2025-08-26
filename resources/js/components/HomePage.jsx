@@ -15,7 +15,7 @@ function HomePage() {
         </div>
         <div class="cardplace">
             <div class="banner-text-main">Подготовка к ЕГЭ <br></br> с Ильёй Ганиевым!</div>
-            <div class="lit-banner-text">Обучаем даже с нуля!</div> 
+            <div class="lit-banner-text">Обучу Вас даже с нуля!</div> 
             <div><button  class="button">Записаться</button></div>
         </div>
     </banner>
@@ -26,8 +26,41 @@ function HomePage() {
             <div class="maintitle">
                 <h2 class="maintext mainhead">Люто продающий заголовок.</h2>
             </div>
+            <div class="reviews-block">
+            <div class="review-item item1">
+                <div class="reviewer"><img class="avatar" src="/images/ava1.jpg" alt="avatar" />Александр</div>
+                <div class="review_text">Хочу поступить в ИТМО и решил подготовиться серьёзно к ЕГЭ по физике и нашёл отличный ресурс.
+                     Илья понятно и доступно объясняет материал, качество съёмки отличное, всё понятно и доступно изложено. 
+                     Теперь готовлюсь с удовольствием и уверенностью в результате!
+                </div>
+                <div class="rate"><img class="star_img" src="/images/star.svg" alt="star" /> 4.6/5 </div>
+            </div>
+            <div class="review-item item2">
+                <div class="reviewer"><img class="avatar" src="/images/ava2.jpg" alt="avatar" />Арина</div>
+                <div class="review_text">Училась у него, когда он еще был на авито и без пафосного сайта {"))"}. 
+                    Набрала 92 балла, мне хватило, чтобы поступить в МИРЭА. Короче, класный чел. 
+                </div>
+                <div class="rate"><img class="star_img" src="/images/star.svg" alt="star" /> 4.6/5 </div>
+            </div>
+            <div class="review-item tall-review">
+                <div class="reviewer"><img class="avatar" src="/images/ava3.jpg" alt="avatar" />Павел</div>
+                <div class="review_text">Припахал меня Илья этот отзыв написать,а я уже давно все сдал и забыть хочу XD.
+                     Слова мои льются в песню, так как Илья - реально хороший и преподаватель, и человек. Рекомендую его курсы всем, кто готовится 
+                     к ЕГЭ по физике. Когда я занимался, площадки его не было еще, или же мы как-то особенно занимались. Но щас, я думаю, очень удобно заниматься онлайн: удобный интерфейс, качественная подача материала, доступные объяснения сложных тем.
+                     Тесты помогают выявить слабые места, домашняя работа закрепляет знания. Особенное внимание уделено визуализации материала 
+                     — отлично снятые видеоролики повышают мотивацию учиться и понимать предмет глубже.
+                </div>
+                <div class="rate"><img class="star_img" src="/images/star.svg" alt="star" /> 4.6/5 </div>
+            </div>
+            <div class="review-item tall-review-summary">                
+                <div className="review-info">Информация</div>
+                Я рад каждому ученику. Начните заниматься со мной прямо сейчас, 
+                и уже пару-тройку занятий вам захочется написать хороший отзыв. Я преподаю с душой.
+                Я готовлю к ЕГЭ по физике так, что вы полюбите этот предмет.
+            </div>
+            </div>
+
             <div class="info">
-                <div class="maintext plottext">Здравствуйте! Меня зовут Илья. Я готовлю к ЕГЭ по физике так, что вы полюбите этот предмет.</div>
                 <div ><iframe class="prevideo" src="https://rutube.ru/play/embed/fd58389c7fd15e5044f0213340c08ab1/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
                 <div class="cardblock">
                     <div class="cardinfo">

@@ -36,7 +36,9 @@
                 @if (Route::has('password.request'))
                     <a href="{{ route('password.request') }}" class="forgot-password">{{ __('Забыли пароль?') }}</a>
                 @endif
-            </form>
+                <br>
+                <a href="{{ route('register') }}" class="registerOrLogin">{{ __('Нет аккаунта? Нажмите для регистрации.') }}</a>
+            </form>     
         </div>
     </div>
 </body>

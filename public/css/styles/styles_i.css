@@ -47,6 +47,97 @@
     text-decoration-style: solid;
     text-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 }
+.reviews-block {
+    width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* height: 100vh; */
+  gap: 2rem;     /* Расстояние между элементами */
+  padding: 2rem; /* Внутренний отступ */
+}
+
+.review-item {
+    position: relative;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, .1) 2px 2px 4px 2px;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #333;
+}
+.item1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.item2{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.tall-review { /* Удваиваем высоту третьего отзыва */
+    grid-row-end: span 2;
+}
+.tall-review-summary { /* Удваиваем высоту третьего отзыва */
+    background-color: #181929;
+    grid-row-end: span 2;
+    color: aliceblue;
+    text-align: left;
+}
+.reviewer{
+    font-size: 1rem;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.avatar{
+    border-radius: 50%;
+    width: 2rem;
+    height: auto;
+}
+.review_text{
+    font-size: 1rem;
+    padding-top: 10px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.review-image {
+  background-image: url('your_image.jpg'); /* Здесь замените путь к вашей картинке */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.review-info{
+    font-size: 1rem;
+    padding-left: 5px;
+    background-color: #8d46f6;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.star_img{
+    width: 1rem;
+    height: auto;
+}
+.rate{
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    font-size: 1rem;
+    /* align-items: center; */
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 500;
+}
 
 
 .plottext {
@@ -117,6 +208,7 @@
 }
 
 .mainhead {
+    width: 80vw;
     font-size: 3em;
     /* margin-bottom: 20px; */
     color: #fff;
@@ -276,7 +368,7 @@
     font-weight: bold;
     font-family: "Oswald", sans-serif;
     color: #333;
-    margin-left: 4vw;
+    margin-left: 2vw;
     margin-top: 4vw;
 }
 .cardphoto{
@@ -332,6 +424,20 @@
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 1vw;
+}
+/* Адаптация для мобильных устройств */
+@media screen and (max-width: 767px) {
+    .reviews-block {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;     /* Расстояние между элементами */
+        padding: 2rem; /* Внутренний отступ */
+    }
+
+    .tall-review {
+        grid-row-end: auto;
+    }
 }
 
 @media (max-width: 427px) {

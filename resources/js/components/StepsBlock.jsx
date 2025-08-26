@@ -2,7 +2,6 @@ import { useEffect } from "react";
 
 function StepsBlock({steps, stepNumber, courseId}) {
     useEffect(()=>{
-        console.log(document.querySelectorAll('.steps'));
         const el = document.querySelectorAll('.steps')[courseId];
         const els = el.childNodes;
         for (let i = 0; i < steps.length; i++) {

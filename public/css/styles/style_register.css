@@ -16,6 +16,17 @@
     --accent-color: #8d46f6;
     --error-color: #e74c3c;
 }
+.reglink_cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.registerOrLogin{
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
 .registration_form{
     width: 100%;
     display: flex;

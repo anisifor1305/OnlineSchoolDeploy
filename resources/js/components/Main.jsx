@@ -41,7 +41,7 @@ if (document.getElementById('main-lesson')) {
     const props = Object.assign({}, component.dataset);
     ReactDOM.createRoot(document.getElementById('main-lesson')).render(
         <React.StrictMode>
-            <Lesson name={component.getAttribute('name')} courseId={component.getAttribute('courseId')} link={component.getAttribute('link')} videoStep={component.getAttribute('videoStep')} videoNames={component.getAttribute('videoNames')} />
+            <Lesson name={component.getAttribute('name')} courseId={component.getAttribute('courseId')} link={component.getAttribute('link')} videoStep={component.getAttribute('videoStep')} videoNames={component.getAttribute('videoNames')} videoIds={component.getAttribute('videoIds')} />
         </React.StrictMode>
     );
 }

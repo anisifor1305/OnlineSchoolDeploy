@@ -23,6 +23,6 @@
 </head>
 
 
-<div id='main-lesson' link={{$link}} videoStep={{$videoStep}} courseId={{$courseId}} name='{{$name}}' videoNames='{{$videoNames}}'></div>
+<div id='main-lesson' link={{$link}} videoStep={{$videoStep}} courseId={{$courseId}} name='{{$name}}' videoNames='{{$videoNames}}' videoIds='{{$videoIds}}'></div>
 
 @endsection
