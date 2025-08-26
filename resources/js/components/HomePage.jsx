@@ -38,7 +38,7 @@ function HomePage() {
             <div class="review-item item2">
                 <div class="reviewer"><img class="avatar" src="/images/ava2.jpg" alt="avatar" />Арина</div>
                 <div class="review_text">Училась у него, когда он еще был на авито и без пафосного сайта {"))"}. 
-                    Набрала 92 балла, мне хватило, чтобы поступить в МИРЭА. Короче, класный чел. 
+                    Набрала 92 балла, мне хватило, чтобы поступить в МИРЭА. Короче, классный чел. 
                 </div>
                 <div class="rate"><img class="star_img" src="/images/star.svg" alt="star" /> 4.6/5 </div>
             </div>
@@ -54,6 +54,7 @@ function HomePage() {
             </div>
             <div class="review-item tall-review-summary">                
                 <div className="review-info">Информация</div>
+                <img class="milkyWay" src="/images/milkyWay.jpg" alt="milkyWay" />
                 Я рад каждому ученику. Начните заниматься со мной прямо сейчас, 
                 и уже пару-тройку занятий вам захочется написать хороший отзыв. Я преподаю с душой.
                 Я готовлю к ЕГЭ по физике так, что вы полюбите этот предмет.

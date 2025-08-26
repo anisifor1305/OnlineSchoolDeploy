@@ -138,6 +138,11 @@
     margin-top: 10px;
     font-weight: 500;
 }
+.milkyWay{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
 
 
 .plottext {
