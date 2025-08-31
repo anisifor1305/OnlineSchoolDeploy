@@ -1,12 +1,17 @@
 .rights {
-    font-size: 1vw;
-    color: white;
+    font-size: 1rem;
+    color: rgb(26, 26, 26);
+}
+.mail {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: rgb(41, 155, 255);
 }
 
 .footer {
     width: 100%;
-    background-color: #8d46f6;
-    color: white;
+    background-color: whitesmoke;
+    color: rgb(26, 26, 26);
     text-align: center;
     padding: 20px 0;
     margin-top: 10vw;
@@ -24,9 +29,9 @@
 }
 .footer__secure{
     margin-top: 10px;
-    font-size: .8vw;
+    font-size: 1rem;
     border: 0;
-    color: aliceblue;
+    color: rgb(26, 26, 26);
     transition: all .3s;
 }
 .footer__secure:hover{

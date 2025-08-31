@@ -143,6 +143,9 @@
     width: 100%;
     height: auto;
 }
+.milkyWay_text{
+    margin-top: 1rem;
+}
 
 
 .plottext {
@@ -322,12 +325,23 @@
     border-color: transparent;
     border-width: 10px;
     /* background-color: rgb(229, 255, 192); */
-    background-color: rgb(192,236,255);
+    /* background-color: rgb(192,236,255); */
     width: 96vw;
     height:auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+.blue{
+    color: rgb(41, 155, 255);
+    border-bottom: 1px solid rgb(41, 155, 255);
+}
+
+.line_dashed{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 100%;
+    border-bottom: 2px dashed #333;
 }
 
 .cardblock:translation
@@ -408,13 +422,15 @@
     border-color: transparent;
     background-color: black;
     color: azure;
-    background-color: rgb(192,236,255);
+    background-color: #fafafa;
+    /* background-color: rgb(192,236,255); */
     /* background-color: rgb(229, 255, 192); */
     color: black;
     border: 0.5vh;
     border-style: solid;
     font-size: 2.5vh;
     margin-top: 5vh;
+    transition: all .3s;
 }
 
 .button_small:hover {
@@ -433,7 +449,7 @@
 /* Адаптация для мобильных устройств */
 @media screen and (max-width: 767px) {
     .reviews-block {
-        width: 80vw;
+        width: auto;
         display: flex;
         flex-direction: column;
         gap: 2rem;     /* Расстояние между элементами */

@@ -30,11 +30,13 @@
 
     <footer class="footer">
         <div class="container">
-            <p class="rights">&copy; DENIS 2025. Все права пока что не защищены.</p>
+            <p class="rights">&copy; 2024-2025, Ганиев Илья Наилевич</p>
             <div class="footer__column">
                 <div class="footer__secure">Политика конфиденциальности</div>
+                <div class="footer__secure">Публичная оферта</div>
                 <div class="footer__secure">FAQ</div>
             </div>
+            <p class="mail">gainevilia@gmail.com</p>
         </div>
     </footer>
 </body>

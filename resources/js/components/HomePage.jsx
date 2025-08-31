@@ -6,17 +6,33 @@ function HomePage() {
 
 
     <banner class="style1">
-        <div class="photoplace">
-            <img class="image-iliya" src="./images/bannerstyle/iliya2.jpg" alt=""></img>
-            <div class="resistordiv"><img class="image resistor" src="./images/bannerstyle/atom2.svg" alt=""></img></div>
-            <div class="lightdiv"><img class="image light" src="./images/bannerstyle/dinamometr.svg" alt=""></img></div>
-            <div class="balldiv"><img class="image ball" src="./images/bannerstyle/mayatnik.svg" alt=""></img></div>
-            <div class="geardiv"><img class="image gear" src="./images/bannerstyle/oscillograph.svg" alt=""></img></div>
-        </div>
+            <div class="photoplace">
+                <div className="maintitle2">
+                    <h2 class="maintext mainhead2">Прямо сейчас.</h2>
+                </div>
+                <div className="img_cont">
+                    <img class="image-iliya" src="./images/bannerstyle/iliya.svg" alt=""></img>
+                    <img class="iliya-arrow" src="./images/bannerstyle/iliya-arrow.svg" alt="arrow" />
+                    {/* <div class="about-me">Привет, я - Илья Ганиев, мне нравится физика и мне нравится преподавать, 
+                        и именно поэтому тебе понравится меня слушать. А еще у нас лучшая цена. </div> */}
+                </div>
+                {/* <div class="resistordiv"><img class="image resistor" src="./images/bannerstyle/atom2.svg" alt=""></img></div>
+                <div class="lightdiv"><img class="image light" src="./images/bannerstyle/dinamometr.svg" alt=""></img></div>
+                <div class="balldiv"><img class="image ball" src="./images/bannerstyle/mayatnik.svg" alt=""></img></div>
+                <div class="geardiv"><img class="image gear" src="./images/bannerstyle/oscillograph.svg" alt=""></img></div> */}
+            </div>
         <div class="cardplace">
-            <div class="banner-text-main">Подготовка к ЕГЭ <br></br> с Ильёй Ганиевым!</div>
-            <div class="lit-banner-text">Обучу Вас даже с нуля!</div> 
-            <div><button  class="button">Записаться</button></div>
+            <div className="cardcont"><div class="banner-text-main">Присоединяйся</div>
+            <div class="lit-banner-text">1. Начни работать на своё будущее. <br />2. Получи здесь все необходимые знания. <br /> 3. Покажи результат в мае. </div> 
+            <div className="hashtags">
+                <div className="hashtag">#ДаЕщёКучаВремени</div>
+                <div className="hashtag">#ПодготовкаЗаДвеМинуты</div>
+                <div className="hashtag">#ДолларВРамочке</div>
+                <div className="hashtag">#ПронесуТелефон</div>
+                <div className="hashtag">#КолледжТожеНичего</div>
+                <div className="hashtag">#РаскладТаро</div>
+            </div>
+            <div><button  class="button">Записаться</button></div></div>
         </div>
     </banner>
 
@@ -33,7 +49,7 @@ function HomePage() {
                      Илья понятно и доступно объясняет материал, качество съёмки отличное, всё понятно и доступно изложено. 
                      Теперь готовлюсь с удовольствием и уверенностью в результате!
                 </div>
-                <div class="rate"><img class="star_img" src="/images/star.svg" alt="star" /> 4.6/5 </div>
+                <div class="rate"><img class="star_img" src="/images/star.svg" alt="star" /> 4.8/5 </div>
             </div>
             <div class="review-item item2">
                 <div class="reviewer"><img class="avatar" src="/images/ava2.jpg" alt="avatar" />Арина</div>
@@ -50,14 +66,14 @@ function HomePage() {
                      Тесты помогают выявить слабые места, домашняя работа закрепляет знания. Особенное внимание уделено визуализации материала 
                      — отлично снятые видеоролики повышают мотивацию учиться и понимать предмет глубже.
                 </div>
-                <div class="rate"><img class="star_img" src="/images/star.svg" alt="star" /> 4.6/5 </div>
+                <div class="rate"><img class="star_img" src="/images/star.svg" alt="star" /> 5.0/5 </div>
             </div>
             <div class="review-item tall-review-summary">                
                 <div className="review-info">Информация</div>
                 <img class="milkyWay" src="/images/milkyWay.jpg" alt="milkyWay" />
-                Я рад каждому ученику. Начните заниматься со мной прямо сейчас, 
+                <div className="milkyWay_text">Меня зовут Илья Ганиев, я репетитор по физике, и я рад каждому ученику. Начните заниматься со мной прямо сейчас, 
                 и уже пару-тройку занятий вам захочется написать хороший отзыв. Я преподаю с душой.
-                Я готовлю к ЕГЭ по физике так, что вы полюбите этот предмет.
+                Я готовлю к ЕГЭ по физике так, что вы полюбите этот предмет.</div>
             </div>
             </div>
 
@@ -66,7 +82,7 @@ function HomePage() {
                 <div class="cardblock">
                     <div class="cardinfo">
                         <div>
-                            <h2 class="cardhead">Как проходят занятия?</h2>
+                            <h2 class="cardhead">Основные <span class="blue">аспекты</span></h2>
                         </div>
                         <div class="cardtext">
                             Обучение проходит на этой платформе. Вы сможете с легкостью отслеживать свой прогресс. Это даст вам возможность не волноваться и не думать, что вы не успеваете. 
@@ -77,11 +93,14 @@ function HomePage() {
                     </div>
                     <div class="imgplace"><img class='cardphoto' src="images/rele.svg" alt="маятник"></img></div>
                 </div>
+                <div className="cardblock">
+                    <div className="line_dashed"></div>
+                </div>
                 <div class="cardblock">
                     <div class="imgplace"><img class='cardphoto' src="images/prisma.svg" alt="маятник"></img></div>
                     <div class="cardinfo">
                         <div>
-                            <h2 class="cardhead">Плюсы подготовки со мной:</h2>
+                            <h2 class="cardhead"> Главные <span class="blue">преимущества</span></h2>
                         </div>
                         <div class="cardtext__ol">
                             <div class="list__el"> <img class='card__dot' src="images/dot.svg" alt="dot"></img>Тщательная проверка по критериям, исправление недочётов</div>
@@ -98,11 +117,13 @@ function HomePage() {
 
     <footer class="footer">
         <div class="container">
-            <p class="rights">&copy; DENIS 2025. Все права пока что не защищены.</p>
+            <p class="rights">&copy; 2024-2025, Ганиев Илья Наилевич</p>
             <div class="footer__column">
                 <div class="footer__secure">Политика конфиденциальности</div>
+                <div class="footer__secure">Публичная оферта</div>
                 <div class="footer__secure">FAQ</div>
             </div>
+            <p class="mail">gainevilia@gmail.com</p>
         </div>
     </footer>
 

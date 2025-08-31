@@ -1,38 +1,79 @@
+
 .style1 {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 50fr 50fr;
     margin-top: 4%;
     margin-left: 2%;
     margin-right: 2%;
     gap:5%;
+    border: 5px solid #8d46f6;
     /* background-color: rgb(229, 255, 192); */
-    background-color: rgb(192,236,255);
+    /* background-color: rgb(192,236,255); */
     /* background-image: url("https://bogatyr.club/uploads/posts/2023-03/34938/1679446237_bogatyr-club-p-tsianovii-tsvet-foni-vkontakte-32.jpg"); */
     width: 96%;
-    height: 730px;
+    /* height: 730px; */
     background-size: cover;
-    align-items: center;
+    /* align-items: center; */
     border-radius: 50px;
 }
+.maintitle2 {
+    width: max-content;
+    padding-right: 2rem;
+    margin-left: 2rem;
+    color: #8d46f6;
+    background-color: #8d46f6;
+    text-align: left;
+    padding-left: 4rem;
+    vertical-align: middle;
+}
+.mainhead2 {
+    font-size: 3em;
+    font-weight: 800;
+    /* margin-bottom: 20px; */
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+.cardcont{
+    width: 100%;
+}
+.img_cont{
+    /* position: relative; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40rem;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    margin-left: 1rem;
+}
+.iliya-arrow{
+    height: 20rem;
+}
+.about-me{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 2rem;
+    padding: 10px;
+}
 .cardplace{
-    width:40%;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: auto;
 }
 
 .photoplace{
-    width: 40%;
+    margin-top: 2rem;
     height: 100%;
-    padding-top: 182.5px;
+    /* padding-top: 182.5px; */
     /* height: auto; */ 
 }
 .banner-text-main {
     font-family: "Oswald", sans-serif;
     font-size: 2.5rem;
-    color: rgb(0, 0, 0);
+    color: #333;
     font-weight: 400;
     text-align: left;
     max-width: 97vh;
@@ -41,21 +82,23 @@
 
  .lit-banner-text {
     font-family:"Onest", sans-serif;
-    font-size: 24px;
-    color: rgb(6, 12, 12);
+    font-size: 1.5rem;
+    color: #333;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
 } 
 
 .image-iliya {
-    position: absolute;
-    width: 25%;
+    /* position: absolute; */
+    width: 50%;
+    height: 20rem;
+    /* height: auto; */
     /* height: 25%; */
     border-radius: 40px;
     border-style: solid;
     border-color: transparent;
     border-width: 10px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .image {
@@ -69,43 +112,21 @@
     /* z-index: 2; */
     /* transform:rotate(45deg) ; */
 }
-.resistor{
-    z-index:4;
-    transform:rotate(45deg) ;
-
+.hashtags{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.resistordiv{
-    margin-left: 20vw;
+.hashtag{
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: black;
+    border-radius: 4px;
+    color: aliceblue;
 }
-
-.light {
-    transform:rotate(-15deg) ;
-    z-index: 2;
-}
-
-.lightdiv{
-    margin-left: -2vw;
-}
-
-.ball {
-    height: auto;
-    z-index: 3;
-    transform:rotate(45deg) ;
-}
-.balldiv{
-    margin-top: 20vw;
-    margin-left: 20vw;
-}
-.gear {
-    z-index: 3;
-    /* z-index: 0; */
-    transform:rotate(20deg) ;
-}
-.geardiv{
-    margin-left: -2vw;
-    margin-top: 20vw;
-}
-
 .button {
     height: 15vh;
     width: 50vh;
@@ -115,28 +136,61 @@
     color: azure;
     font-size: 5vh;
     margin-top: 10vh;
+    transition: all .3s;
+    margin-bottom: 2rem;
 }
 
 .button:hover {
     /* background-color: rgb(229, 255, 192); */
-    background-color: rgb(192,236,255);
+    /* background-color: rgb(192,236,255); */
+    background-color: aliceblue;
     color: black;
     border: 0.5vh;
     border-style: solid;
 }
 
 @media (max-width: 800px) {
+    .iliya-arrow{
+        display: none;
+    }
+    .about-me{
+        display: none;
+    }
     .style1 {
-        gap: 0;
-        justify-content: start;
-        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1.2fr;
+    }
+    .maintitle2{
+        padding: 0;
+        background-color: transparent;
+        margin: 0;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .mainhead2{
+        padding-left: 1rem;
+        background-color: #8d46f6;
+        width: 80%;
+        font-size: 2rem;
+    }
+    .img_cont{
+        width: auto;
+        margin-left: 0;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    .cardplace{
+        margin-top: 0;
+    }
+    .cardcont{
+        width: 96%;
+        display: flex;
         flex-direction: column;
-        height: auto;
+        align-items: center;
     }
     .photoplace{
         padding-top: 0;
-        height: 60vh;
-        width: 50vh;
     }
     .image-iliya {
         position: relative;
@@ -149,57 +203,16 @@
     .banner-text-main {
         margin-top: 0;
         margin-bottom: 5vh;
-        width: 60vh;
         font-size: 2rem;
-        text-align: center;
+        text-align: left;
     }
-     .lit-banner-text {
-       width: 60vh;
-    } 
     .image {
         width: 5rem;
         height: auto;
     }
-    .ball {
-        width: 5rem;
-        height: auto;
+    .button{
+        margin-top: 5vh;
     }
-    .balldiv {
-        position: absolute;
-        margin-top: 60vw;
-        margin-left: 40vw;
-    }
-    .gear {
-        width: 5rem;
-        height: auto;
-    }
-    .geardiv {
-        position: absolute;      
-        margin-top: 60vw;
-        margin-left: -31vw;
-    }
-    .light {
 
-    }
-    .lightdiv {
-        position: absolute;      
-        margin-top: -15vw;
-        margin-left: -32vw;
-    }
-    .resistor {
-
-    }
-    .resistordiv {
-        position: absolute;    
-        margin-top: -15vw;
-        margin-left: 31vw;
-    }
-    .button {
-        margin-top: 0;
-        width: 80vw;
-        font-size: 10vw;
-        margin-bottom: 20vw;
-        margin-top: 10vw;
-    }
 }
 
