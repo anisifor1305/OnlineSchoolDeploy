@@ -35,6 +35,17 @@ class VideoController extends Controller
     
     }
 
+    public function helloVideo()
+    {
+        try{
+            return response()->file(storage_path("app/private/videos/hellovideo.MOV"));
+        }
+        catch(Exception $e){
+            return view('starwarsError', ['exception'=>new Exception('error')]);
+        }
+    
+    }
+
     public function upload(Request $request)
     {
         // Проверка валидности входных данных

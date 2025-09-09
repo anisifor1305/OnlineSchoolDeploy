@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     function index(){
-        $bal = User::where('id', auth()->id())->first()->balance;
-        return view('home', ['balance'=>$bal]);
+        return view('home');
     }
 }

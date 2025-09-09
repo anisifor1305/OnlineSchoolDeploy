@@ -78,7 +78,8 @@ function HomePage() {
             </div>
 
             <div class="info">
-                <div ><iframe class="prevideo" src="https://rutube.ru/play/embed/fd58389c7fd15e5044f0213340c08ab1/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                {/* <div ><iframe class="prevideo" src="https://rutube.ru/play/embed/fd58389c7fd15e5044f0213340c08ab1/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div> */}
+                <div ><iframe class="prevideo" src="/hellovideo" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
                 <div class="cardblock">
                     <div class="cardinfo">
                         <div>
@@ -119,9 +120,9 @@ function HomePage() {
         <div class="container">
             <p class="rights">&copy; 2024-2025, Ганиев Илья Наилевич</p>
             <div class="footer__column">
-                <div class="footer__secure">Политика конфиденциальности</div>
-                <div class="footer__secure">Публичная оферта</div>
-                <div class="footer__secure">FAQ</div>
+                <a href='/policy' class="footer__secure">Политика конфиденциальности</a>
+                <a href='/offer' class="footer__secure">Публичная оферта</a>
+                <a href='#' class="footer__secure">FAQ</a>
             </div>
             <p class="mail">gainevilia@gmail.com</p>
         </div>

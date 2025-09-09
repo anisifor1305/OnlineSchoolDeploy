@@ -16,9 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet"> 
     <title>Онлайн-школа</title>
 </head>
-<!-- <script>
-    let balance= '{{ $balance }}'
-</script> -->
-<div id="main-home" balance='{{$balance}}'></div>
+
+<div id="main-home"></div>
     
 @endsection

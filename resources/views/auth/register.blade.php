@@ -31,7 +31,7 @@
                             </div>
                         </div>
                         
-                        <div class="mb-3 row">
+                        <!-- <div class="mb-3 row">
                             <label for="lastname" class="col-md-3 col-form-label text-md-end">{{ __('Фамилия') }}</label>
                             
                             <div class="col-md-9">
@@ -43,7 +43,7 @@
                                     </span>
                                 @enderror
                             </div>
-                        </div>
+                        </div> -->
                         
                         <div class="mb-3 row">
                             <label for="email" class="col-md-3 col-form-label text-md-end">{{ __('Электронная почта') }}</label>
@@ -80,7 +80,12 @@
                                 <input id="password-confirm" type="password" class="form-control custom-input" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
-                        
+                        <div class="custom-control custom-checkbox mb-3">
+                            <input type="checkbox" class="custom-control-input" id="personalDataConsent" name="personal_data_consent" required>
+                            <label class="custom-control-label" for="personalDataConsent">
+                                Я согласен с условиями обработки <br> моих <a class='personal-data' href="/policy">персональных данных </a>
+                            </label>
+                        </div>
                         <div class="row mb-0">
                             <div class="col-md-3"></div>
                             <div class="col-md-9 d-flex justify-content-start">

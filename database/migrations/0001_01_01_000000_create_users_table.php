@@ -17,7 +17,7 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('firstname')->nullable();
-            $table->string('lastname')->nullable();
+            // $table->string('lastname')->nullable();
             $table->float('balance')->default(0.0);
             $table->string('about')->nullable();
             $table->boolean('banned')->default(0);

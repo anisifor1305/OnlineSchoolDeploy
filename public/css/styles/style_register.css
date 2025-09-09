@@ -132,6 +132,13 @@
 .auth-button:hover {
     background-color: darken(var(--accent-color), 10%);
 }
+.personal-data{
+    color:rgb(41, 155, 255);
+}
+.custom-control{
+    margin-top: 10px;
+}
+
 
 /* Мобильные стили */
 @media only screen and (max-width: 768px) {

@@ -8,6 +8,7 @@ use App\Http\Controllers\RegistrationController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\ChatController;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\DocumentsController;
 use App\Http\Controllers\LessonController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\VideoController;
@@ -19,8 +20,8 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 Route::get('/', function (){
     return redirect('/home');
-})->middleware(isAuthed::class);
-Route::get('/home', [HomeController::class, 'index'])->middleware(isAuthed::class);
+});
+Route::get('/home', [HomeController::class, 'index']);
 Route::get('/auth', [AuthController::class, 'form']);
 Route::post('/auth', [AuthController::class, 'auth']);
 Route::get('/reg', [RegistrationController::class, 'registration']);
@@ -57,3 +58,6 @@ Route::get('/makelink', [VideoController::class, 'makeLinkIndex'])->middleware(i
 Route::post('/makelink', [VideoController::class, 'makeLink'])->middleware(isAdmin::class);
 Route::get('/video/{video}', [VideoController::class, 'show'])->middleware(isAuthed::class);
 Route::get('/removevideo/{videoName}', [VideoController::class, 'removeVideo'])->middleware(isAdmin::class);
+Route::get('/offer', [DocumentsController::class, 'getOffer']);
+Route::get('/policy', [DocumentsController::class, 'getPolicy']);
+Route::get('/hellovideo', [VideoController::class, 'helloVideo']);

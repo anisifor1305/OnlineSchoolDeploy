@@ -1,2 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /cpanel/
+Disallow: /profile/
+Disallow: /lesson/
+Sitemap: https://jetcourses.ru/sitemap.xml
