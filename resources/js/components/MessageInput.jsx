@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 const MessageInput = ({ rootUrl }) => {
     const [message, setMessage] = useState("");
