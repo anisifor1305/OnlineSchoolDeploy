@@ -15,7 +15,7 @@ window.Echo = new Echo({
     wsPort: import.meta.env.VITE_REVERB_PORT ?? 80,
     wssPort: import.meta.env.VITE_REVERB_PORT ?? 443,
     forceTLS: (import.meta.env.VITE_REVERB_SCHEME ?? 'https') === 'https',
-    enabledTransports: ['ws', 'wss'],
+    enabledTransports: ['wss'],
     
 });
 
@@ -50,7 +50,7 @@ const ChatBox = ({ rootUrl }) => {
                 headers: {'X-CSRF-TOKEN': window.csrfToken},
                 withCredentials: true,
             };
-            const m = await axios.get(`https://jetcourses.ru/messages/${lastPart}`,config);
+            const m = await axios.get(`/messages/${lastPart}`,config);
             console.log(m);
             setMessages(m.data);
             setTimeout(scrollToBottom, 0);
