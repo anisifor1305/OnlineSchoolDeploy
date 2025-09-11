@@ -32,7 +32,7 @@ function HomePage() {
                 <div className="hashtag">#КолледжТожеНичего</div>
                 <div className="hashtag">#РаскладТаро</div>
             </div>
-            <div class="main-button"><button  class="button">Записаться</button></div></div>
+            <div class="main-button"><a href="/pay"><button class="button">Записаться</button></a></div></div>
         </div>
     </banner>
 
@@ -107,7 +107,7 @@ function HomePage() {
                             <div class="list__el"> <img class='card__dot' src="images/dot.svg" alt="dot"></img>Тщательная проверка по критериям, исправление недочётов</div>
                             <div class="list__el"><img class='card__dot' src="images/dot.svg" alt="dot"></img>План подготовки, благодаря которому не надо волноваться</div>
                             <div class="list__el"><img class='card__dot' src="images/dot.svg" alt="dot"></img>Интересная подача информации, а не тупое нарешивание заданий.</div>
-                            <div class="btnplace"><button  class="button_small">Вперёд!</button></div>
+                            <div class="btnplace"> <a href="/pay"><button class="button_small">Вперёд!</button></a></div>
                         </div>
                     </div>
                 </div>
