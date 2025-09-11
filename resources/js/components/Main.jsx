@@ -6,7 +6,7 @@ import HomePage from './HomePage.jsx';
 import Profile from './Profile.jsx';
 import Lesson from './Lesson.jsx';
 if (document.getElementById('main')) {
-    const rootUrl = "http://127.0.0.1:8000"; 
+    const rootUrl = "https://jetcourses.ru"; 
 
     ReactDOM.createRoot(document.getElementById('main')).render(
         <React.StrictMode>
