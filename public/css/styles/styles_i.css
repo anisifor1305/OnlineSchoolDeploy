@@ -417,7 +417,7 @@
 }
 .button_small {
     height: 10vh;
-    width: 25vw;
+    width: 20rem;
     border-radius: 1.5vh;
     border-color: transparent;
     background-color: black;
@@ -462,6 +462,9 @@
 }
 
 @media (max-width: 427px) {
+    .btnplace{
+        justify-content: center;
+    }
     .cardblock {
         flex-direction: column;
     }
@@ -494,10 +497,6 @@
     .card__dot {
         height: 10%;
         width: 10%;
-    }
-    .button_small {
-        margin-left: 35%;
-        margin-bottom: 5%;
     }
     .maintitle {
         width: 90vw; 

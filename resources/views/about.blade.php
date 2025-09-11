@@ -13,24 +13,27 @@
         <div class="maintitle">
             <h2 class="maintext mainhead">На старой железяке далеко не улетишь</h2>
         </div>
-        <p class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, assumenda voluptate. Sint provident tenetur placeat.</p>
-        <p class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, assumenda voluptate. Sint provident tenetur placeat.</p>
-        <p class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, assumenda voluptate. Sint provident tenetur placeat.</p>
+               <ul>
+            <li>Здравствуйте. Меня зовут Илья Ганиев. Я учился в школе на отлично и сдал ЕГЭ по физике на 92 балла, сейчас я на отлично учусь в МГТУ им. Баумана.
+                Этого мало, чтобы стать настоящим преподавателем. Настоящий преподаватель должен обладать талантом. Мои ученики,
+                которые уже сдали экзамен и получили впечатляющий результат, считают что он у меня есть. Прямо сейчас вы можете купить мой курс по физике, 
+                и я уверен, что вы не пожалеете, потому что каждый день я вкладываю в своё дело огромное количество сил, которые делают этот курс понятным, наглядным
+                и эффектиным. Для того, чтобы в этом убедиться, вы можете купить подписку на один месяц. 
+            </li>
+        </ul>
     </section>
 
     <section id="services" class="services-section">
         <h2>Юридические данные</h2>
         <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, neque?</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, neque?</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, neque?</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, neque?</li>
+            <li>ФИО: Ганиев Илья Наилевич</li>
+            <li>ИНН: 637204600766</li>
         </ul>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p class="rights">&copy; 2024-2025, Ганиев Илья Наилевич</p>
+            <p class="rights">&copy; 2024-2025, Ганиев Илья Наилевич,  ИНН: 637204600766</p>
             <div class="footer__column">
                 <a href='/policy' class="footer__secure">Политика конфиденциальности</a>
                 <a href='/offer' class="footer__secure">Публичная оферта</a>

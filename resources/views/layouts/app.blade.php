@@ -38,12 +38,11 @@
                 <div class="header__panel-block-btn"><a class="header__panel-btn primary-font mobile-none" href="/pay">Купить курс </a></div>
                 <div class="header__panel-block-btn"><a class="header__panel-btn primary-font mobile-none" href="/about"> Информация </a></div>
                 @guest
-                <a class="header__panel-btn primary-font mobile-none" href="{{ route('login') }}">{{ __('Войти') }}</a>
+                <a class="header__panel-btn primary-font" href="{{ route('login') }}">{{ __('Войти') }}</a>
                 <a class="header__panel-btn primary-font mobile-none" href="{{ route('register') }}">{{ __('Регистрация') }}</a>
                 @else
                 <div class="header__panel-block-btn"><a class="header__panel-btn primary-font mobile-none" href="/profile"> Профиль </a></div>
                 @endguest
-
                 @guest
                 @else
                 <div class="dropdown">

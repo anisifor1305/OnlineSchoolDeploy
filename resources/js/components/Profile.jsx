@@ -47,7 +47,7 @@ function Profile({coursesInfo, stepNumbers}) {
 
     <footer class="footer">
         <div class="container">
-            <p class="rights">&copy; 2024-2025, Ганиев Илья Наилевич</p>
+            <p class="rights">&copy; 2024-2025, Ганиев Илья Наилевич,  ИНН: 637204600766</p>
             <div class="footer__column">
                 <a href='/policy' class="footer__secure">Политика конфиденциальности</a>
                 <a href='/offer' class="footer__secure">Публичная оферта</a>
