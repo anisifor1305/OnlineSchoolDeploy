@@ -51,7 +51,7 @@ class CPanelController extends Controller
         }
         }
         catch (Exception $e){
-            return view('starwarsError', ['exception'=>$e);
+            return view('starwarsError', ['exception'=>$e]);
         }
           
     }
