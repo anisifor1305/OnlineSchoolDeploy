@@ -42,7 +42,7 @@ class CPanelController extends Controller
             $videoFiles = array_slice($videoFiles, 4);
             $courses = Course::all();
             $videos = Video::all();
-            $directory = storage_path('app/public/videos');
+            $directory = storage_path('app/private/videos');
             $videospath = File::files($directory);
             return view('cpanel', ['courses'=>$courses, 'videos'=>$videos, 'videospath'=>$videospath, 'videoFiles'=>$videoFiles]);
         }

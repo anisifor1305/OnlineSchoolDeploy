@@ -68,7 +68,7 @@ class VideoController extends Controller
             }
             $id = $lastId+1;
             $video->link="/video/$id.mp4";
-            $path =  $request->file('video')->storeAs('videos',"$id.mp4");
+            $path =  $request->file('video')->storeAs('private/videos',"$id.mp4");
             
             // $path = Storage::disk('private')->putFileAs('videos', $request->file('video'),"$id.mp4");
             $video->save();
