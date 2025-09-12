@@ -51,7 +51,7 @@ class CPanelController extends Controller
         }
         }
         catch (Exception $e){
-            return view('starwarsError', ['exception'=>new Exception('error')]);
+            return view('starwarsError', ['exception'=>$e->getMessage()]);
         }
           
     }
