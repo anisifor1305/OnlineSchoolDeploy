@@ -16,7 +16,8 @@ use RecursiveCallbackFilterIterator;
 class CPanelController extends Controller
 {
     function index() {
-        if (  $user = User::where('id', auth()->id())->first()->is_admin){
+            try{
+            if (  $user = User::where('id', auth()->id())->first()->is_admin){
             $dirPath = storage_path('app/private');
             $videoExtensions = ['mp4', 'mkv', 'avi'];
             
@@ -48,6 +49,11 @@ class CPanelController extends Controller
         else{
             return view('accessError');
         }
+        }
+        catch (Exception $e){
+            return view('starwarsError', ['exception'=>new Exception('error')]);
+        }
+          
     }
     function setCourse(string $id) {
         $user = User::where('id', auth()->id())->first();
